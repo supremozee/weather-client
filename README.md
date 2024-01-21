@@ -9,7 +9,7 @@ First, run the development server:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/my-weather-app.git
+   git clone https://github.com/supremozee/weather-client.git
    cd my-weather-app
 2. npm install
 
