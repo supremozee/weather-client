@@ -21,6 +21,18 @@ First, run the development server:
 Enter the name of the city in the input field.
 Click the "search icon" button to fetch and display the current weather for the specified city.
 
+6. Customization
+You can customize the app by modifying components and styles in the components and styles directories.
+
+7. Dependencies
+Next.js
+TypeScript
+Axios
+
+## License
+This project is licensed under the MIT License.
+
+Feel free to contribute or open issues if you have suggestions or find any bugs.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
