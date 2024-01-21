@@ -1,20 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+My Weather App
+
+This is a simple weather app built with Next.js and TypeScript.
 
 ## Getting Started
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/your-username/my-weather-app.git
+   cd my-weather-app
+2. npm install
+
+3.npm run dev
+
+4. Open http://localhost:3000 in your browser.
+
+5. Usage
+Enter the name of the city in the input field.
+Click the "search icon" button to fetch and display the current weather for the specified city.
+
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
