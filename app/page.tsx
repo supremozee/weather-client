@@ -123,9 +123,9 @@ export default function Home() {
             <p>Already have an account?</p>
             <p
               onClick={() => setFormRoute("login")}
-              className=" cursor-pointer"
+              className=" cursor-pointer ml-1"
             >
-              Singn in
+              Sign in
             </p>
           </div>
         )}
@@ -136,7 +136,7 @@ export default function Home() {
               onClick={() => setFormRoute("register")}
               className=" cursor-pointer"
             >
-              Singn up
+              Sign up
             </p>
           </div>
         )}
@@ -146,7 +146,7 @@ export default function Home() {
             onClick={handleForm}
             className="p-2 pl-7 pr-7 cursor-pointer bg-gradient center text-white rounded-xl"
           >
-            {loading ? <Spinner /> : "Singn up"}
+            {loading ? <Spinner /> : "Sign up"}
           </div>
         )}
         {formRoute === "login" && (
@@ -154,7 +154,7 @@ export default function Home() {
             onClick={handleForm}
             className="p-2 pl-7 pr-7 cursor-pointer bg-gradient center text-white rounded-xl"
           >
-            {loading ? <Spinner /> : "Singn in"}
+            {loading ? <Spinner /> : "Sign in"}
           </div>
         )}
       </div>
