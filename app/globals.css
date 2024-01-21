@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --const: #e4e6eb;
+  --const2: rgb(197, 201, 209);
+  --const3: rgb(76, 79, 84);
+  --gradient: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+}
+
+@font-face {
+  font-family: gumela;
+  src: url(/GumelaRegular.otf);
+}
+
+* {
+  font-family: gumela;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: var(--gradient);
+  position: relative;
+}
+
+p {
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--const2);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullShadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px 0px,
+    rgba(0, 0, 0, 0.05) 0px 2px 15px 0px;
+}
+
+.spinner {
+  animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
